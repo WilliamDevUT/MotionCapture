@@ -1,0 +1,31 @@
+//instalar conda 
+chmod +x instalacionConda.sh
+./instalacionConda.sh
+
+//instlar ambiente
+chmod +x instalacionAmbientes.sh
+./instalacionAmbientes.sh
+
+
+//instlar easymocap nvidia
+chmod +x instalacionNvidia.sh
+./instalacionNvidia.sh
+
+
+(istalar_easymocap.sh)
+//instalar easymocap CPU (no es preferible)
+chmod +x instalacionCPU.sh
+./instalacionCPU.sh
+
+// en esto estan los comandos
+https://github.com/zju3dv/EasyMocap/blob/master/doc/quickstart.md
+// aca para usarlo a tiempo real 
+https://github.com/zju3dv/EasyMocap/blob/master/doc/realtime_visualization.md
+
+// las carpetas se organizan de esta forma 
+los objetos de la carpeta se remplazan por el .zip
+
+//los videos del drop box se guardan y se usa este atajo
+data=path 
+
+
