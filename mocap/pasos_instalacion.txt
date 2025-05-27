@@ -10,6 +10,9 @@ source ~/miniconda3/bin/activate
 conda --version
 // seguir el archivo de instalacion 
 (istalar_easymocap.sh)
+// instalar videos
+wget "https://www.dropbox.com/scl/fi/rcp8bbi574dj7fby0vpmy/zju-ls-feng.zip?dl=1&e=1&rlkey=w60lasygtaiemgrmrphvc2ozt" -O zju-ls-feng.zip
+
 // puede faltar esto 
 sudo apt update
 sudo apt install libgl1
