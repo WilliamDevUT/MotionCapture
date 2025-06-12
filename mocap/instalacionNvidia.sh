@@ -10,6 +10,8 @@ git clone https://github.com/zju3dv/EasyMocap.git
 cd EasyMocap
 
 echo "💾 Instalando PyTorch nvidia"
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+//inutil
 pip install ./torch-1.12.0+cu116-cp39-cp39-linux_x86_64.whl
 pip install ./torchvision-0.13.0+cu116-cp39-cp39-linux_x86_64.whl
 
